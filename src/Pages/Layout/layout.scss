@@ -1,0 +1,26 @@
+// @import url("../../Global/global.scss");
+@import '../../Global/global.scss';
+
+.myHeader{
+     background-color: $primary-color;
+}
+
+.myImg{
+     max-width: 35px;
+}
+
+.navContent{
+     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profileImg{
+     margin-left: 35px;
+}
+
+.notiIcon{
+     color: white;
+     cursor: pointer;
+}

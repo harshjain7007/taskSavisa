@@ -1,0 +1,40 @@
+@import '../Global/global.scss';
+
+.boxParent{
+     display: flex;
+background-color: whitesmoke;
+height: 40px;
+width: 45px;
+justify-content: center;
+align-items: center;
+margin: 0px 20px;
+}
+
+.icon {
+     color: $primary-color;
+     height: 12px;
+}
+
+.myTitle{
+     color: $primary-color;
+     font-size: 24px;
+}
+
+.inpContainer{
+     margin: 5px auto;
+}
+
+.textInp{
+     width: 100%;
+     padding: 7px;
+     border-color: $primary-color !important;
+}
+
+.labelTxt{
+     font-weight: 600;
+    font-size: 14px;
+}
+
+.txtAre{
+     height: 100px;
+}

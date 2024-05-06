@@ -1,0 +1,43 @@
+@import '../../Global/global.scss';
+
+.bocIcons{
+     display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.myFormContainer{
+    margin: auto;
+    width: 80%;
+    padding: 60px;
+    border-radius: 20px;
+    // height: 100vh;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.inputFields{
+    margin-top: 30px;
+}
+
+.formButtons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.myBtn{
+    background-color: whitesmoke;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 32px;
+    border: none;
+    margin: 15px 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.myBtn:hover{
+    background-color: $primary-color;
+    color: white;
+}
