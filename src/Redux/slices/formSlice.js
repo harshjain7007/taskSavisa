@@ -18,7 +18,8 @@ export const Form_Submit = createAsyncThunk("form/Form_Submit", async (data, { r
                     
                     'Content-Type': 'application/json',
                 },
-                data
+                data,
+                referrerPolicy: 'no-referrer-when-downgrade'
           }
           const result = await axios(config);
           return result.data;
